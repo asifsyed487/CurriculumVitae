@@ -204,6 +204,9 @@ nav {
 /* mobile display */
 
 @media screen and (max-width: 1024px) {
+	body {
+		padding-top: 2rem;
+	}
 	.presentation {
 		flex-direction: column;
 	}
