@@ -26,10 +26,6 @@ header {
 	overflow-x: scroll;
 }
 
-header::-webkit-scrollbar {
-    display: none;
-}
-
 .logo-container {
 	flex: 1;
 }
