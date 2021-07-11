@@ -22,6 +22,12 @@ header {
 	margin: auto;
 	align-items: center;
 	height: 10vh;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+header::-webkit-scrollbar {
+    display: none;
 }
 
 .logo-container {
@@ -40,6 +46,7 @@ nav {
 .nav-links {
 	justify-content: space-around;
 	list-style: none;
+	
 }
 
 .nav-link {
@@ -220,6 +227,18 @@ nav {
 
 	.cover img {
 		height: 80%;
+		animation: asif 5s ease;
+	}
+
+	@keyframes asif {
+		0% {
+			opacity: 0;
+			transform: translateY(-1000px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0px);
+		}
 	}
 
 	.big-circle, .medium-circle, .small-circle {
